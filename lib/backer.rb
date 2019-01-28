@@ -7,7 +7,7 @@ attr_reader :name
     @backed_projects = []
   end
 
-  def backed_projects(project)
+  def back_projects(project)
     @backed_projects << project
 
   end
